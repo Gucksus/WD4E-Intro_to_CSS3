@@ -1,4 +1,38 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Single stylesheet shared by index.html, neighborhood.html and parks.html */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
+
+header {
+  background-color: #cfe8d5;
+}
+
+nav {
+  background-color: #2e6b47;
+}
+
+main {
+  background-color: #f4faf5;
+  font-size: 120%;
+}
+
+footer {
+  background-color: #cfe8d5;
+}
+
+li {
+  display: inline-block;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #1f4d33;
+}
+
+p {
+  line-height: 1.6;
 }
